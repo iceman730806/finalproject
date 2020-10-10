@@ -21,8 +21,8 @@ router.get('/', function(req, res) {
 router.get('/about', function(req, res) {
   res.send(
     '<h1> About King </h1>'+
-    '\n <img src="https://drive.google.com/file/d/1d9oT4ckbUtzFlgTrXZjp-_KOjcl7FGzY/view?usp=sharing" height="60%">'
-    // '\n <img src="https://www.omgtw.com/upload/article/original/be134fac90625546754962aeef34925c.jpg" height="60%">'
+    // '\n <img src="https://drive.google.com/file/d/1d9oT4ckbUtzFlgTrXZjp-_KOjcl7FGzY/view?usp=sharing" height="60%">'
+    '\n <img src="https://www.omgtw.com/upload/article/original/be134fac90625546754962aeef34925c.jpg" height="60%">'
     );
 });
 
