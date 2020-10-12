@@ -1,7 +1,8 @@
 body{
-    background: #89ca63;
+    background: #65b1f0;
     /* background: #1dbcca; */
-    font-family: ubuntu;
+    /* font-family: ubuntu; */
+    font-family: ubuntu,微軟正黑體;
 }
 
 h1{
@@ -17,8 +18,9 @@ h1{
     max-width: 960px;
     margin: 30px auto;
     padding:  20px 30px;
-    border-radius: 10px 10px 10px 10px;
-    box-shadow: 1px 3px 5px rgba(0,0,0,0.1)
+    border-radius: 20px;
+    /* border-radius: 10px 10px 10px 10px; */
+    box-shadow: 5px 3px 5px rgba(0,0,0,0.1)
 }
 
 tr {
@@ -37,12 +39,14 @@ td {
 
 table {
     border:8px rgb(240, 139, 181) groove; 
-    border-radius:25px;
+    border-radius:15px;
+    padding: 10px 0 10px 32px;
 }
 
 form input{
     float: left;
     width: 25%;
+    height: 10vh;
     margin: 0;
     border: 0;
     border-bottom: 1px solid rgb(221, 132, 132);
@@ -71,7 +75,9 @@ button{
     background: rgb(236, 221, 221);
     border-radius: 10px;
     padding: 13px;
+    margin: 0 0 0 10px;
     width: 15%;
+    height: 10vh;
     box-shadow: -1px 0px 1px rgba(0,0,0,0.1);
     font-weight: bold;
     font-family: ubuntu;
