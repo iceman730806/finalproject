@@ -10,8 +10,8 @@ router.get('/', (req, res) => {
     }
     res.sendFile("index.html", options)
 })
-router.use('/MrPhone', Mr. Phone);
+router.use('/MrPhone', MrPhone);
 router.use('/QBank', QBank);
-router.use('/ALe', A-Le);
+router.use('/ALe', ALe);
 
 module.exports = router;
