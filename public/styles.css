@@ -1,7 +1,5 @@
 body{
     background: #65b1f0;
-    /* background: #1dbcca; */
-    /* font-family: ubuntu; */
     font-family: ubuntu,微軟正黑體;
 }
 
@@ -19,7 +17,6 @@ h1{
     margin: 30px auto;
     padding:  20px 30px;
     border-radius: 20px;
-    /* border-radius: 10px 10px 10px 10px; */
     box-shadow: 5px 3px 5px rgba(0,0,0,0.1)
 }
 
