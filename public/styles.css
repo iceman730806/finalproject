@@ -1,5 +1,6 @@
 body{
-    background: #1dbcca;
+    background: #89ca63;
+    /* background: #1dbcca; */
     font-family: ubuntu;
 }
 
@@ -16,7 +17,7 @@ h1{
     max-width: 960px;
     margin: 30px auto;
     padding:  20px 30px;
-    border-radius: 10px 120px 10px 10px;
+    border-radius: 10px 10px 10px 10px;
     box-shadow: 1px 3px 5px rgba(0,0,0,0.1)
 }
 
@@ -70,7 +71,7 @@ button{
     background: rgb(236, 221, 221);
     border-radius: 10px;
     padding: 13px;
-    width: 10%;
+    width: 15%;
     box-shadow: -1px 0px 1px rgba(0,0,0,0.1);
     font-weight: bold;
     font-family: ubuntu;
