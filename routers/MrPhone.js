@@ -12,8 +12,8 @@ router.use(function timeLog(req, res, next) {
 router.get('/', function(req, res) {
   res.send(
     'MrPhone\'s home page'+'<br>'+
-    '<a href="/user/MrPhone/about"> about </a>'+'<br>'+
-    '<a href="/user/MrPhone/phone.html"> Mr. Phone </a>'
+    '<a href="/phone/MrPhone/about"> about </a>'+'<br>'+
+    '<a href="/phone/MrPhone/phone.html"> Mr. Phone </a>'
     );
 });
 
