@@ -1,8 +1,8 @@
 let express = require('express');
 let router = express.Router();
-let King = require('./King.js');
-let Vock = require('./Vock.js');
-let Arlen = require('./Arlen.js');
+let MrPhone = require('./MrPhone.js');
+let QBank = require('./QBank.js');
+let ALe = require('./ALe.js');
 router.get('/', (req, res) => {
     let options = {
         root: __dirname,
@@ -10,8 +10,8 @@ router.get('/', (req, res) => {
     }
     res.sendFile("index.html", options)
 })
-router.use('/King', King);
-router.use('/Vock', Vock);
-router.use('/Arlen', Arlen);
+router.use('/MrPhone', Mr. Phone);
+router.use('/QBank', QBank);
+router.use('/ALe', A-Le);
 
 module.exports = router;

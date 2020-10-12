@@ -9,9 +9,9 @@ function renderStudents(doc){
     let td3 = document.createElement("td");
     let tr = document.createElement("tr");
     tr.setAttribute('data-id', doc.id);
-    td1.textContent = doc.data().name;
-    td2.textContent = doc.data().age;
-    td3.textContent = doc.data().gender;
+    td1.textContent = doc.data().item;
+    td2.textContent = doc.data().price;
+    td3.textContent = doc.data().features;
     tr.appendChild(td1);
     tr.appendChild(td2);
     tr.appendChild(td3);
@@ -24,7 +24,7 @@ function renderStudents(doc){
         test.stopPropagation();
         let id = test.target.parentElement.getAttribute('data-id');
         console.log(id);
-        db.collection('ClassA').doc(id).delete();
+        db.collection('Phone').doc(id).delete();
     });
     //
 
@@ -32,7 +32,7 @@ function renderStudents(doc){
 }
 
 // getting data 
-db.collection('ClassA').get().then(data => {
+db.collection('Phone').get().then(data => {
     data.docs.forEach(doc => {
         renderStudents(doc);
     });
@@ -42,13 +42,13 @@ db.collection('ClassA').get().then(data => {
 // add data
 form.addEventListener('submit', (e) => {
     e.preventDefault();
-    db.collection('ClassA').add({
-        name: form.name.value,
-        gender: form.gender.value,
-        age: form.age.value
+    db.collection('Phone').add({
+        item: form.item.value,
+        price: form.price.value,
+        features: form.features.value
     });
     form.name.value = '';
     form.gender.value = '';
-    form.age.value = '';
+    form.features.value = '';
 });
 //
